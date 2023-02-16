@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_tags_blog_carousels",
+  "info": {
+    "displayName": "BlogCarousel"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tag.tag"
+    },
+    "SectionHero": {
+      "type": "string"
+    }
+  }
+}

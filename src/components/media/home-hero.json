@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_media_home_heroes",
+  "info": {
+    "displayName": "HomeHero"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "CallToAction": {
+      "type": "string"
+    }
+  }
+}

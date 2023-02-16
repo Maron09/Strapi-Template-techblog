@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_labels_featuring_posts",
+  "info": {
+    "displayName": "FeaturingPost"
+  },
+  "options": {},
+  "attributes": {
+    "FeaturingPostHead": {
+      "type": "string"
+    },
+    "post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post.post"
+    }
+  }
+}

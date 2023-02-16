@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blog_featuring_posts",
+  "info": {
+    "displayName": "FeaturingPost"
+  },
+  "options": {},
+  "attributes": {
+    "FeaturingPostHead": {
+      "type": "string"
+    },
+    "PostSelection": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post.post"
+    }
+  }
+}
